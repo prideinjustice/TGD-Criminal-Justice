@@ -1,0 +1,24 @@
+---
+const { children } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TGDAC</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body style="font-family: sans-serif; margin: 2rem;">
+    <header>
+      <h1 style="color: #6a1b9a;">T&GD Criminal Justice Council</h1>
+      <hr />
+    </header>
+    <main>
+      {children}
+    </main>
+    <footer>
+      <hr />
+      <p><small>© TGDAC – Wiradjuri Country</small></p>
+    </footer>
+  </body>
+</html>
