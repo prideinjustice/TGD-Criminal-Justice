@@ -1,0 +1,13 @@
+tgdac-site/
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── layouts/
+│   │   └── Layout.astro
+│   └── pages/
+│       └── index.astro
+├── .gitignore
+├── astro.config.mjs
+├── package.json
+├── tsconfig.json
+├── README.md
